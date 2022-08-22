@@ -30,7 +30,7 @@
     <div class="shadow sticky-top bg-white">
         <nav class="navbar navbar-expand-lg container py-4">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold text-success fs-3" href="#">STUDYMAT</a>
+                <a class="navbar-brand fw-bold text-success fs-3" href="index.html">STUDYMAT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +42,10 @@
                             <a class="nav-link fw-bold fs-5 text-black-50" aria-current="page" href="#">নীড়পাতা</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold text-black-50 fs-5" href="#">প্রকৌশলবিদ্যা</a>
+                            <a class="nav-link fw-bold text-black-50 fs-5" href="#HSC&ADMISSION">HSC ও ADMISSION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold text-black-50 fs-5" href="#">HSC ও ADMISSION</a>
+                            <a class="nav-link fw-bold text-black-50 fs-5" href="#প্রকৌশলবিদ্যা">প্রকৌশলবিদ্যা</a>
                         </li>
                     </ul>
                     <div class="btn-group" role="group">
@@ -67,38 +67,55 @@
 
     <!-- header area end  -->
 
-    <div style="background-color: #f7f7f7;">
-        <div class="container p-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card p-5 shadow mx-auto">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">মোবাইল নাম্বার/ইমেইল</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text"><a href="#">Change Mobile Number/Email</a></div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="otpText" class="form-label">ফোনে পাঠানো OTP নিচে লিখুন
-                                </label>
-                                <input type="email" class="form-control" id="otpText" aria-describedby="otplHelp">
-                                <div id="otplHelp" class="form-text"><a href="#">আপনি কোডটি পাননি? আবার পাঠান</a></div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">পাসওয়ার্ড</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <button class="btn btn-success fw-bold rounded-pill px-4 py-2" type="submit"><i
-                                    class="fa-solid fa-arrow-right-to-bracket me-2"></i> লগ-ইন </button>
-                        </form>
+    <!-- home search area start  -->
+
+    <section class="home" style="background-image: url(assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; opacity: 0.9; height: 300px;">
+        <div class="container">
+            <div class="row height d-flex justify-content-center align-items-center">
+                <div class="col-10 col-md-6">
+                    <div class="form">
+                        <i class="fa fa-search fa-bold" style="font-size: 20px;"></i>
+                        <input type="search" class="form-control form-input p-3 rounded-pill shadow"
+                            placeholder="Search anything...">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <!-- home search area end  -->
+
+    <!-- main section  -->
+
+    <section class="mb-5 container" id="প্রকৌশলবিদ্যা">
+        <h1 class="text-center my-5 fw-bold">প্রকৌশলবিদ্যা</h1>
+        <div class="row">
+            <div class="col-6 col-md-3 item">
+                <div class="flip-card shadow">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/hsc2023.jpg" alt="Avatar" style="width:300px;height:300px;"
+                                class="rounded">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- footer  -->
+
     <footer class="footer">
 
         <section class="p-5">
