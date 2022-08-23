@@ -259,7 +259,8 @@ a {
 
 /* Login Page  */
 
-.login-input {
+.login-input,
+.reader select {
     background-color: #F2F2F2;
 }
 
